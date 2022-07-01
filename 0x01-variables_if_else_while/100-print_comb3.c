@@ -19,8 +19,8 @@ while (i < 100)
 	k = i / 10;
 	if (k < j)
 	{
-	putchar(j + '0');
-	putchar(k + '0');
+	putchar('0' + j);
+	putchar('0' + k);
 	
 	if (i < 89)
 	{
