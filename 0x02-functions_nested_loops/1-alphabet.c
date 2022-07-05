@@ -5,6 +5,7 @@
  *
  * Description: print the alphabet in lowercase
  */
+
 void print_alphabet(void)
 {
 	int i;
