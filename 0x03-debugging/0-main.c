@@ -2,13 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 
-/**
-* positive_or_negative - Test for positive or negative integer of i
-* main - Entry point
-* @i: integer to be used for test
-* Return: 0
-*/
-
 void positive_or_negative(int i)
 {
 int n;
