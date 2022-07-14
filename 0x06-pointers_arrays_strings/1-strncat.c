@@ -2,8 +2,7 @@
 #include <string.h>
 
 /**
- * _strncat - function that concatenates two strings and
- * use n bytes form src.
+ * _strncat - function that concatenates two strings  with n
  * @dest: first parameter
  * @src: second parameter
  * @n: third parameter
