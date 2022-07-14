@@ -7,12 +7,11 @@
  * @dest: first parameter
  * @src: second parameter
  * @n: third parameter
- * Return: pointer to result
+ * Return: string
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
 	_strncat(*dest, *src, n);
-
 	return (dest);
 }
