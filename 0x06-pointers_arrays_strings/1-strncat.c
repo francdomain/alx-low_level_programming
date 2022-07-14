@@ -9,8 +9,8 @@
  * Return: string
  */
 
-char *_strncat(char dest, char src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
-	_strncat(*dest, *src, n);
+	_strncat(dest, src, n);
 	return (dest);
 }
