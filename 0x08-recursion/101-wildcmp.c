@@ -1,5 +1,7 @@
 #include "main.h"
 
+int wildcmp(char *s1, char *s2);
+
 /**
  * test - tests if wildcard is a proper match
  * @s5: string to compare
