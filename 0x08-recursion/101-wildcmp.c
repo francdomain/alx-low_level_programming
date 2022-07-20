@@ -1,5 +1,7 @@
 #include "main.h"
 
+int findsrc(char, char, int, int)
+
 /**
  * wildcmp - function that compare two strings
  * @s1: string 1
