@@ -1,7 +1,5 @@
 #include "main.h"
 
-int findsrc(char, char, int, int)
-
 /**
  * wildcmp - function that compare two strings
  * @s1: string 1
@@ -12,7 +10,9 @@ int findsrc(char, char, int, int)
 int wildcmp(char *s1, char *s2)
 {
 	if (*s1 == '\0' && *s2 == '\0')
+	{
 		return (1);
+	}
 	else if (*s1 == '\0' || *s2 == '\0')
 	{
 		if (*s1 == '\0' && *s2 == '*')
